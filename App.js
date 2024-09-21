@@ -12,12 +12,12 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{ headerShown: false }}>
-        <Stack.Screen name="Diet" component={Diet} />
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="AdminHome" component={AdminHome} />
         <Stack.Screen name="Central" component={Central} />
         <Stack.Screen name="Nutrition" component={Nutrition} />
         <Stack.Screen name="Ingredient" component={Ingredient} />
+        <Stack.Screen name="Diet" component={Diet} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -3,7 +3,7 @@
     "name": "SES",
     "slug": "SES",
     "version": "1.0.0",
-    "orientation": "automatic",
+    "orientation": "potrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
